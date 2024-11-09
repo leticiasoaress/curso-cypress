@@ -5,7 +5,6 @@ describe('Work with basic elements', () => {
         cy.visit('https://wcaquino.me/cypress/componentes.html');  
     })
 
-
     it('Text', () => {
         cy.get('body').should('contain', 'Cuidado');
         cy.get('span').should('contain', 'Cuidado');
